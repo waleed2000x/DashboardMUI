@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Instrument+Serif:ital@0;1&family=Kanit:ital,wght@0,400;1,300&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Amatic SC", cursive;
+  font-family: "Instrument Serif", serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* font-size: 62.5%; */
+}
