@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Instrument+Serif:ital@0;1&family=Kanit:ital,wght@0,400;1,300&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Amatic SC", cursive;
+  font-family: "Instrument Serif", serif;
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+// Theme Colors
+$white: #ffffff;
+$black: #212121;
+$blue: #3699ff;
+$sidebarPurple: #1f1e2e;
+$sideItem: #3a3a5d;
+$sideItemActivebg: #181824;
+$bgColor: #f3f6f9;
+// MIXINS
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+}
+//
+.sidebar-parent {
+  @include flex-col();
+  width: 10vw;
+  background-color: $sidebarPurple;
+}
+.sidebar-logo {
+  width: 100%;
+}
+.side-items {
+  position: sticky;
+  @include flex-col();
+  align-items: center;
+  justify-content: flex-start;
+}
+.side-item {
+  @include flex-col();
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90px;
+  padding: 10px 0px 10px 0px;
+  margin-top: 15px;
+  border-radius: 7px;
+
+  & > * {
+    color: $sideItem;
+  }
+  &:hover {
+    background-color: $sideItemActivebg;
+    & > * {
+      color: $blue;
+    }
+  }
+}

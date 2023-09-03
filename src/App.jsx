@@ -12,7 +12,6 @@ const Parent = styled.div`
 function App() {
   return (
     <Parent>
-      <Sidebar />
       <Body />
     </Parent>
   );
