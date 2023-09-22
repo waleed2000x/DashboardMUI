@@ -7,3 +7,4 @@
 - Will utilize it in the Future
 - Scss
 - Flex-box
+- Svg importa
