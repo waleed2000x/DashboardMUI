@@ -4,4 +4,4 @@
 - No state
 - Just design
 - Nothing programmatical
-- Will utilize it in Future 
+- Will utilize it in the Future 
