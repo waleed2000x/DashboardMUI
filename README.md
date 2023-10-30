@@ -1,4 +1,4 @@
-# Metronix Dashboard(Incompla)
+# Metronix Dashboard(Incomplete)
 
 - Just a figma design implemented in react code
 - No state
